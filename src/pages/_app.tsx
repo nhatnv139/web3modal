@@ -7,21 +7,10 @@ import type { AppProps } from "next/app";
 import { useEffect, useState } from "react";
 const inter = Lexend({ subsets: ["latin"] });
 import { Lexend } from "next/font/google";
-import {
-  arbitrum,
-  avalanche,
-  fantom,
-  gnosis,
-  mainnet,
-  optimism,
-  polygon,
-  bscTestnet,
-  bsc,
-} from "wagmi/chains";
+import { bsc, bscTestnet } from "wagmi/chains";
 
 const chains = [
   ...(process.env.NEXT_PUBLIC_NETWORK_ID === "0x61" ? [bscTestnet] : [bsc]),
-  ,
 ];
 
 const projectId = process.env.NEXT_PUBLIC_PROJECT_ID || "";

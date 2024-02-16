@@ -445,9 +445,6 @@
     background-position: 200% 50%;
   }
 }
-.w3m-modal{
-  z-index: 1000 !important;
-}
 
 @media only screen and (max-width: 764px) {
   .container {
@@ -550,5 +547,4 @@
   .actionBtnConnet > div > :last-child {
     display: block !important;
   }
-
 }

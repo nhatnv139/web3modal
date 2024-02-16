@@ -153,6 +153,7 @@ const Home: NextPage = () => {
         <meta content="Athene Network" name="description" />
         <link href="/favicon.ico" rel="icon" />
       </Head>
+      
 
       <main className={styles.main}>
         <div className={styles.header}>
